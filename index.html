@@ -11,6 +11,33 @@
     <title>EDDY BEATS | Music Producer</title>
 
     <link rel="stylesheet" href="style.css">
+
+<style>
+.music-embeds {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    max-width: 900px;
+    margin: 16px auto 0;
+}
+.music-track h3 {
+    margin: 0 0 5px;
+    font-size: 0.85rem;
+}
+.music-track iframe {
+    display: block;
+    width: 100%;
+    height: 80px;
+    border: 0;
+    border-radius: 8px;
+}
+@media (max-width: 700px) {
+    .music-embeds {
+        grid-template-columns: 1fr;
+    }
+}
+</style>
+
 </head>
 
 <body>
@@ -178,39 +205,58 @@
         <!-- MUSIC SECTION -->
         <section id="music" class="music">
             <h2>HEAR THE SOUND</h2>
+            <p>Listen to some of the work produced by Eddy Beats.</p>
 
-            <p>
-                Listen to some of the work produced by Eddy Beats.
-            </p>
+            <div class="music-embeds">
+                <div class="music-track">
+                    <h3>Piksy</h3>
+                    <iframe
+                        src="https://open.spotify.com/embed/track/75BWsr2r3HnOExwfEWnsQV?utm_source=generator"
+                        width="100%"
+                        height="80"
+                        frameborder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
 
-             <div class="audio-track">
-                <h3>Larcy Perkiz - Not Changing</h3>
-                <audio controls>
-                    <source src="mp3/Not_changing(Prod.eddybeats).mp3" type="audio/mp3">
-                </audio>
+                <div class="music-track">
+                    <h3>Lacy Perkiz</h3>
+                    <iframe
+                        src="https://open.spotify.com/embed/track/2moa4F3JYqlvBAu23JGNhi?utm_source=generator"
+                        width="100%"
+                        height="80"
+                        frameborder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="music-track">
+                    <h3>Miss Morena - Regular</h3>
+                    <iframe
+                        src="https://www.youtube.com/embed/EtL9V_L4LhU?start=70"
+                        width="100%"
+                        height="80"
+                        frameborder="0"
+                        title="Miss Morena - Regular"
+                        allow="autoplay; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
+
+                <div class="music-track">
+                    <h3>Roc Henesi ft FLVME - Auto Pilot</h3>
+                    <iframe
+                        src="https://open.spotify.com/embed/track/2HYtDhJdBB0Utg3CWAH43W?utm_source=generator"
+                        width="100%"
+                        height="80"
+                        frameborder="0"
+                        allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+                        loading="lazy">
+                    </iframe>
+                </div>
             </div>
-
-            <div class="audio-track">
-                <h3>Miss Morena - Regular</h3>
-                <audio controls>
-                    <source src="mp3/Regular.mp3" type="audio/mp3">
-                </audio>
-            </div>
-
-            <div class="audio-track">
-                <h3>Piksy - Hallellujah</h3>
-                <audio controls>
-                    <source src="mp3/Halleluyah.mp3" type="audio/mp3">
-                </audio>
-            </div>
-           
-            
-
-            
-            <a href="https://www.youtube.com/@EddyBeatsMW"
-                target="_blank" rel="noopener noreferrer">
-                LISTEN ON YOUTUBE
-            </a>
         </section>
 
 

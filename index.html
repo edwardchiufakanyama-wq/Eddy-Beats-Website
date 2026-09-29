@@ -36,6 +36,14 @@
         grid-template-columns: 1fr;
     }
 }
+.studio-pictures {
+    display:grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 12px;
+    border-radius: 8px;
+    max-width: 900px;
+    margin: 16px auto 0;
+}
 </style>
 
 </head>
@@ -182,10 +190,16 @@
             </p>
 
           
-
-                <img src="IMAGES/Eddybeats_2.jpeg"
+             <div class="studio-pictures">
+ <img class="studio-pictures" src="IMAGES/studio_1.JPG"
                     alt="Eddy Beats Studio"
-                    height="300">
+                    width="300">
+
+                     <img class="studio-pictures" src="IMAGES/studio_2.JPG"
+                    alt="Eddy Beats Studio"
+                    width="300">
+             </div>
+               
             </div>
 
             <div class="studio-gear">
@@ -366,11 +380,7 @@
                             YouTube
                         </a>
                     </li>
-                    <li>
-                        <a href="https://www.facebook.com/eddybeatsofficial/" target="_blank" rel="noopener noreferrer">
-                            Facebook
-                        </a>
-                    </li>
+                   
                 </ul>
             </div>
 
